@@ -32,9 +32,6 @@ class CustomAppBar extends StatelessWidget {
 
 //  We build AppBar icons
   Widget _buildIcon(IconData icon) {
-    SizedBox(
-      width: 100,
-    );
     return Container(
             padding: const EdgeInsets.all(8,),
             decoration: const BoxDecoration(
