@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:food_app_dl/widgets/custom_app_bar.dart';
+import 'package:food_app_dl/widgets/restauran_info.dart';
 import '../../constants/colors.dart';
 
 class HomePage extends StatefulWidget {
@@ -24,7 +25,7 @@ class _HomePageState extends State<HomePage> {
             Icons.arrow_back_ios_outlined,
             Icons.search_outlined
           ),
-          
+          RestaurantInfo()
         ],
       ),
     );
