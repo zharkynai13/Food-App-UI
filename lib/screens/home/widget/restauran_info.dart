@@ -1,7 +1,7 @@
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-
+// import 'package:flutter/src/widgets/framework.dart';
+// import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
+import 'package:food_app_dl/constants/colors.dart';
 import 'package:food_app_dl/models/restaurant.dart';
 
 class RestaurantInfo extends StatelessWidget {
@@ -57,9 +57,10 @@ class RestaurantInfo extends StatelessWidget {
                   )
                 ],
               ),
+              
               ClipRRect(
                 borderRadius: BorderRadius.circular(50),
-                child: Image.asset(restaurant.logoUrl,width: 80,),
+                child: Image.asset('assets/res_logo.png',width:60,),
               )
             ],
           ),
@@ -69,7 +70,21 @@ class RestaurantInfo extends StatelessWidget {
            children: [
             Text(
             restaurant.decs,
-            style: TextStyle(fontSize: 16),)
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            ),
+            Row(
+              children: [
+               const Icon(Icons.star_outline,
+                color: kPrimaryColor,),
+               Text('${restaurant.score}',
+               style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold
+               ),
+              ),
+             const  SizedBox(height: 15,)
+              ],
+            )
            ],
           )
         ]

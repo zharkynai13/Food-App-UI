@@ -22,9 +22,9 @@ class Restaurant {
   static Restaurant generateRestaurant() {
     return Restaurant('Restaurant',
      '20-30 min', 
+     'assets/res_logo.png',
      'Orange sandiviches is dilishios',
      '2-4 km', 
-     'assets/img/res_logo.png',
      'Restaurant',
       4.7, 
       {

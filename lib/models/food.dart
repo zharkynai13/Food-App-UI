@@ -27,7 +27,7 @@ class Food {
     return [
    
    Food(
-    "assets/img/dish1.png",
+    "assets/dish1.png",
      'No1 in Sales',
      'Soba Soup',
       "50 min", 
@@ -38,24 +38,24 @@ class Food {
        
      [
     {
-      'Noodle': 'assets/img/ingre1.png',
+      'Noodle': 'assets/ingre1.png',
     },
     
      {
-      'Shrimp': 'assets/img/ingre2.png',
+      'Shrimp': 'assets/ingre2.png',
     },
      {
-      'Egg': 'assets/img/ingre3.png',
+      'Egg': 'assets/ingre3.png',
     },
     {
-      'Scalion': 'assets/img/ingre4.png',
+      'Scalion': 'assets/ingre4.png',
     },
      ],
       'Simple food Ramen of Japanes food it is onle on og very impotant ',
        hightLight: true,
      ),
 
-   Food("assets/img/dish2.png",
+   Food("assets/dish2.png",
      'No2 in Sales',
      'Soba Soup',
       "50 min", 
@@ -66,22 +66,22 @@ class Food {
        
      [
     {
-      'Noodle': 'assets/img/ingre1.png',
+      'Noodle': 'assets/ingre1.png',
     },
     
      {
-      'Shrimp': 'assets/img/ingre2.png',
+      'Shrimp': 'assets/ingre2.png',
     },
      {
-      'Egg': 'assets/img/ingre3.png',
+      'Egg': 'assets/ingre3.png',
     },
     {
-      'Egg': 'assets/img/ingre4.png',
+      'Egg': 'assets/ingre4.png',
     },
      ],
       'Simple food Ramen of Japanes food it is onle on og very impotant ',
       ),
-    Food("assets/img/dish3.png",
+    Food("assets/dish3.png",
      'No2 in Sales',
      'Soba Soup',
       "50 min", 
@@ -92,17 +92,17 @@ class Food {
        
      [
     {
-      'Noodle': 'assets/img/ingre1.png',
+      'Noodle': 'assets/ingre1.png',
     },
     
      {
-      'Shrimp': 'assets/img/ingre2.png',
+      'Shrimp': 'assets/ingre2.png',
     },
      {
-      'Egg': 'assets/img/ingre3.png',
+      'Egg': 'assets/ingre3.png',
     },
     {
-      'Egg': 'assets/img/ingre4.png',
+      'Egg': 'assets/ingre4.png',
     },
      ],
       'Simple food Ramen of Japanes food it is onle on og very impotant ',
@@ -114,7 +114,7 @@ class Food {
      return [
    
    Food(
-    "assets/img/dish4.png",
+    "assets/dish4.png",
      'No1 in Sales',
      'Soba Soup',
       "50 min", 
@@ -125,17 +125,17 @@ class Food {
        
      [
     {
-      'Noodle': 'assets/img/ingre1.png',
+      'Noodle': 'assets/ingre1.png',
     },
     
      {
-      'Shrimp': 'assets/img/ingre2.png',
+      'Shrimp': 'assets/ingre2.png',
     },
      {
-      'Egg': 'assets/img/ingre3.png',
+      'Egg': 'assets/ingre3.png',
     },
     {
-      'Scalion': 'assets/img/ingre4.png',
+      'Scalion': 'assets/ingre4.png',
     },
      ],
       'Simple food Ramen of Japanes food it is onle on og very impotant ',
