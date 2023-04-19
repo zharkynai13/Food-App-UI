@@ -39,6 +39,53 @@ class FoodDetail extends StatelessWidget {
             ),
              const SizedBox(height: 20,),
             FoodQuantity(food: food,),
+            const SizedBox(height: 30,),
+            Row(
+              children: const[
+                Text("Ingredients", style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18
+                ),)
+              ],
+            ),
+             const SizedBox(height: 10,),
+            Container(
+              height: 100,
+              child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) =>  Container(
+                  padding: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: Column(
+                    children: [
+                      Image.asset(food.ingridients[index].values.first,width: 52,),
+                      Text(food.ingridients[index].keys.first),
+                    ],
+                  ),
+                ),
+                separatorBuilder: (_, index) => const SizedBox(width: 20,), 
+                itemCount: food.ingridients.length),
+            ),
+            const SizedBox(height: 30,),
+            Row(
+              children: const[
+                Text("About", style: 
+                TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),)
+              ],
+            ),
+            const SizedBox(height: 25,),
+            Text(food.about, style: const TextStyle(
+              fontSize: 18,
+              height: 1.5,
+              wordSpacing: 1.2,
+            ),),
+            const Padding(padding: EdgeInsets.all(40))
           ],  
       ),
     );

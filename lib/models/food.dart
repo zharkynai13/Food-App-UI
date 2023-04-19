@@ -51,7 +51,8 @@ class Food {
       'Scalion': 'assets/ingre4.png',
     },
      ],
-      'Simple food Ramen of Japanes food it is onle on og very impotant ',
+      'Simple food Ramen of Japanes food it is onle on og very impotant lotem ipsum have a nice day for for love'
+      'food food some food for me i can eat some food love love life create create it code in vs code ',
        hightLight: true,
      ),
 
@@ -79,7 +80,8 @@ class Food {
       'Egg': 'assets/ingre4.png',
     },
      ],
-      'Simple food Ramen of Japanes food it is onle on og very impotant ',
+      'Simple food Ramen of Japanes food it is onle on og very impotant Enjoy the delicious flavor of our Cook-in-Bag entrées with no prep and minimal cleanup.'
+      'Enjoy the delicious flavor of our Cook-in-Bag entrées with no prep and minimal cleanup.',
       ),
     Food("assets/dish3.png",
      'No2 in Sales',
@@ -138,7 +140,10 @@ class Food {
       'Scalion': 'assets/ingre4.png',
     },
      ],
-      'Simple food Ramen of Japanes food it is onle on og very impotant ',
+      'Simple food Ramen of Japanes food it is onle on og very impotant ,'
+      'Enjoy the delicious flavor of our Cook-in-Bag entrées with no prep and minimal cleanup.'
+      'Enjoy the delicious flavor of our Cook-in-Bag entrées with no prep and minimal cleanup.'
+      'Enjoy the delicious flavor of our Cook-in-Bag entrées with no prep and minimal cleanup.',
       hightLight: true,
      ),
      ];

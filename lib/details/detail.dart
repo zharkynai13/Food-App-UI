@@ -29,6 +29,37 @@ class DetailPage extends StatelessWidget {
         ),
 
       ),
+      floatingActionButton: Container(
+        width: 100,
+        height: 56,
+        child: RawMaterialButton(onPressed: (){},
+        fillColor: kPrimaryColor,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(50),
+          ),
+          elevation: 2,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children:  [
+              const Icon(Icons.shopping_bag_outlined,
+              color: Colors.black,
+              size: 30,),
+              Container(
+                padding: const EdgeInsets.all(15),
+                decoration: const BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle
+                ),
+                child:
+                Text(food.quantity.toString(), style: const TextStyle(color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontSize: 18),) ,
+
+              )
+            ],
+          ),
+        ),
+      ),
       );
   }
 }
